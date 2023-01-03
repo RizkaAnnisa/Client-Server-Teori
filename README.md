@@ -19,6 +19,12 @@
 
 - Spring Boot menjadikan kompleksitas tersebut ditangani secara otomatis oleh Spring Boot. sehingga kita bisa membuat aplikasi Spring Framework secara cepat tanpa harus melakukan pengaturan apapun
 
-- Spring Boot sekarang sudah menjadi salah satu framework wajib ketika kita ingin membuat aplikasi Spring Framework
+- Spring Boot sekarang sudah menjadi salah satu framework wajib ketika kita ingin membuat aplikasi Spring Framework.
 
+## Alasan Menggunakan Spring 
+- Saat ini Spring adalah satu-satunya framework paling populer di Java.
+- Belum ada yang bisa menandingi popularitasny di java, bahkan saking populernya, banyak perusahaan pindah ke JVM karena ingin menggunakan Spring-nya, bukan java.
+- Dengan banyaknya bahasa yang bisa berjalan diatas JVM, seperti kotlin, Groovy dan Scala, maka secara programmer punya banyak pilihan bahasa pemrograman ketika menggunakan Spring.
+- Spring juga sudah banyak diadopsi dibanyak perusahaan, baik dalam skala besar, maupun skala kecil.
 
+- 
