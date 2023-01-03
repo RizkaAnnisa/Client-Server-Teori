@@ -49,5 +49,8 @@
 
 - Saat menggunakan framework loc, kita biasanya akan mengikuti cara kerja framework tersebut
 
+- Spring bisa dibilang adalah framework loC, dimana kita akan menyerahkan banyak sekali pekerjaan dalam program kita ke Spring
+
+- Kode program kita akan mengikuti cara kerja Spring
 
 
