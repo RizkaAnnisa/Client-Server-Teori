@@ -37,7 +37,17 @@
 
 - Selain itu juga Spring bisa diintegrasikan dengan teknologi yang tidak standar bawaan Java, seperti MongoDB, Consul, Vault, Cassandra, dan lain-lain.
 
+## Membuat Project
+- Klik link https://start.spring.io/
 
+## Inversion of Control
+
+- Inversion of Control (loC) merupakan prinsip dalam pembuatan perangkat lunak, dimana kita melakukan pemindahan kontrol untuk objek atau program ke sebuah container di framework
+- Tidak seperti biasanya ketika kita membuat aplikasi, dimana kita selalu melakukannya secara manual, dalam loC, kita menyerahkan banyak pekerjakan ke container loc
+
+- Container loC memiliki kontrol untuk melakukan eksekusi program kita, memanajemen object pada program kita dan melakukan abstraction terhadap program kita
+
+- Saat menggunakan framework loc, kita biasanya akan mengikuti cara kerja framework tersebut
 
 
 
