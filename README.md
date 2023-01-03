@@ -80,3 +80,41 @@ this video
 
 - https://refactoring.guru/design-patterns/singleton
 
+## Membuat Singleton di Java
+
+- Ada banyak cara membuat singleton object di Java
+
+- Cara yang paling sering digunakan adalah membuat class yang berisikan static method untuk membuat object dirinya sendiri
+
+- Selanjutnya constructor nya dibuat private, agar tidak bisa diakses dari luar
+
+- Sehingga user terpaksa menggunakan method static tersebut ketika ingin membuat object nya
+
+## Bean
+
+- Saat sebuah object kita masukkan kedalam Spring Container loC, maka kita sebut object tersebut adalah Bean
+
+- Secara default, bean merupakan singleton, artinya jika kita mengakses bean yang sama, maka dia akan mengembalikan object yang sama. Kita juga bisa mengubahnya jika tidak ingin singleto.
+
+## Membuat Bean
+
+- Untuk membuat bean, kita bisa membuat sebuah method di dalam class Configuration
+
+- Selanjutnya nama method tersebut akan menjadi nama bean nya, dan return object nya menjadi object bean nya
+
+- Method tersebut perlu kita tambahkan annotation @Bean, untuk menandakan bahwa itu adalah bean. 
+
+- Secara otomatis Spring akan mengeksekusi method tersebut, dan return value nya akan dijadikan object bean secara otomatis, dan disimpan di container loC.
+
+## Mengakses Bean
+
+- Setelah kita membuat bean, secara otomatis semua object akan di-manage dien Application Context
+- Untuk mengakses bean, kita bisa menggunakan method getBean milik Application Context
+
+## Duplicate Bean
+
+- Di Spring, kita bisa mendaftarkan beberapa bean dengan tipe yang sama
+
+- Namun perlu diperhatikan, jika kita membuat bean dengan tipe data yang sama, maka kita harus menggunakan nama bean yang berbeda
+
+- Selain itu, saat kita mengakses bean nya, kita wajib menyebutkan nama bean nya, karena jika tidak, Spring akan bingung harus mengakses bean yang mana.
