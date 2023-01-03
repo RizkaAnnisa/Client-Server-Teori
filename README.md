@@ -27,4 +27,17 @@
 - Dengan banyaknya bahasa yang bisa berjalan diatas JVM, seperti kotlin, Groovy dan Scala, maka secara programmer punya banyak pilihan bahasa pemrograman ketika menggunakan Spring.
 - Spring juga sudah banyak diadopsi dibanyak perusahaan, baik dalam skala besar, maupun skala kecil.
 
-- 
+## Ekosistem Pendukung
+
+- Spring memiliki ekosistem pendukung yang sangat besar
+
+- Spring sendiri tidaklah digunakan untuk menggantikan framework yang sudah ada, melainkan menjahit framework-framework yang sudah ada, menjadi framework yang saling terintegrasi
+
+- Spring bisa digunakan terintegrasi dengan baik dengan Bean Validation, Java Persistence API. Servlet, dan lain-lain
+
+- Selain itu juga Spring bisa diintegrasikan dengan teknologi yang tidak standar bawaan Java, seperti MongoDB, Consul, Vault, Cassandra, dan lain-lain.
+
+
+
+
+
