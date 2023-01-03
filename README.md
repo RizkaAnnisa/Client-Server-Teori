@@ -64,5 +64,5 @@ this video
 
 - Pada versi Spring 3, XML masih menjadi pilihan utama, namun sekarang sudah banyak orang beralih dari XML ke Annotation, bahkan Spring Boot pun merekomendasikan menggunakan Annotation untuk membuat aplikasi Spring
 
-- https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ ApplicationContext.html
+- https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html
 
