@@ -121,7 +121,7 @@ this video
 
 - Selain itu, saat kita mengakses bean nya, kita wajib menyebutkan nama bean nya, karena jika tidak, Spring akan bingung harus mengakses bean yang mana.
 
-#Code : ![img 1](image/client3.png)
+#Code : ![imag2](image/client3.png)
 
 ## Spring IO
 
